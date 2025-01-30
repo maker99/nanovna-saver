@@ -1,5 +1,0 @@
-scipy
-cython
-pyqt5
-pyserial
-numpy
