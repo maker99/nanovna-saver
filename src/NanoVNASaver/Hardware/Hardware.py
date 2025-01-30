@@ -49,6 +49,7 @@ USBDEVICETYPES = (
     USBDevice(0x0483, 0x5740, "NanoVNA"),
     USBDevice(0x16C0, 0x0483, "AVNA"),
     USBDevice(0x04B4, 0x0008, "S-A-A-2"),
+    USBDevice(0x0483, 0x374B, "STLink"),      # Mini1300 analyzer with NanoVNASaver patch
 )
 RETRIES = 3
 TIMEOUT = 0.2
