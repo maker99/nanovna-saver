@@ -1,14 +1,62 @@
-/venv/
-/env/
-.idea/
-.vscode/
-/build/
-/dist/
-/nanovna-saver.spec
-*.egg-info/
-*.pyc
-*.cal
-settings.json
-.gitignore
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+.DS_Store
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+.vscode
+tags
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov/*
 .coverage
-/nanovna-saver.exe.spec
+.coverage.*
+.tox
+junit*.xml
+coverage.xml
+.pytest_cache/
+
+# Build and docs folder/files
+build/*
+dist/*
+sdist/*
+docs/api/*
+docs/_rst/*
+docs/_build/*
+cover/*
+MANIFEST
+**/_version.py
+.flatpak-builder/*
+macbuildenv/*
+NanoVNASaver.spec
+
+# Per-project virtualenvs
+.venv*/
+.conda*/
+.python-version
+
+
+*.spec
+*_rc.py
